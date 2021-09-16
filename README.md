@@ -9,9 +9,9 @@
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  在源码中设置"目标.txt"的绝对路径
+2.  在命令提示符同一目录下，将shutdown.py用"pyinstaller -F shutdown.py"命令转化为shutdown.exe可执行文件
+3.  将shutdown.exe放入开机自启动文件夹%programdata%\Microsoft\Windows\Start Menu\Programs\Startup下
 
 #### 使用说明
 
@@ -29,9 +29,7 @@
 
 #### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.  判定当前时刻距离午饭/晚饭/入睡剩余多长时间，限制晚23点-次日早6点为应处于睡眠时间。
+2.  记录和显示当次开机目标，并可随时覆盖
+3.  设置关机时间，限制单次计算机使用时长，以达到提高效率的目的
+4.  漂亮的文字显示和即时计时
